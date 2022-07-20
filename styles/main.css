@@ -1,0 +1,91 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    background-size: cover;
+}
+
+.pageheader {
+    font-size: 46pt;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 4px 4px 16px #ffffff;
+
+}
+
+.fish_coll {
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: row;
+    max-width: 75%;
+    max-height: 75%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 10% 0% 2% 0%;
+    padding: 0% 5% 0% 0%;
+    justify-content: left;
+
+    /* justify-content: left; */
+}
+
+.fish_types {
+    background-color: rgb(165, 232, 210);
+    margin: 10% 0% 10% 5%;
+    padding: 50px;
+    border-radius: 25%;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.fish_img {
+    width: 100%;
+    height: auto;
+}
+
+/* .fish_location{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    flex-direction: row;
+} */
+
+.fish_location {
+    background-color: aquamarine;
+    border-radius: 5px;
+    max-width: 75%;
+    max-height: 75%;
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5% 0% 0%;
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.fish_group {
+    background-color: rgb(165, 232, 210);
+    margin: 2% 0% 10% 5%;
+    padding: 50px;
+    border-radius: 25%;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.fish_tank {
+    background-color: aquamarine;
+    max-width: 25%;
+    min-height: 135%;
+    border-radius: 5px;
+    position: absolute;
+    top: 35.6%;
+    right: 5px;
+}
+
+.fish_tanktips {
+    text-align: center;
+}
